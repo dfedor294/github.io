@@ -1,17 +1,18 @@
-.header
-  &-top
+.header-top{
     background: #ffffff
     +media-breakpoint-down(md)
       display: none
-  &-top-inner
+    }
+ .header-top-inner{
     height: 124px
     display: flex
     justify-content: space-between
     align-items: center
-
-.address
+}
+.address{
   display: flex
   align-items: center
+  }
   .fa
     font-size: 36px
     color: $accent-2
